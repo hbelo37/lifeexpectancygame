@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Weeks Game</title>
+    <link rel="stylesheet" href="Index.css">
+    
+</head>
+
+<body>
+
+    <p>Enter your date of birth:</p>
+  
+    <div class="inputplace">
+        <div class="userinteract">
+            <input type="date" id="dob">
+            <button onclick="calculateLife()" class="btn-class-name">
+                <span class="back"></span>
+                <span class="front"></span>
+            </button>
+        </div>
+        <div class="useroutput">
+        <div id="remain" class="dayremain">Days Remaining: </div>
+    </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="age-label">Age</div>
+        <div class="ages"></div>
+        <div class="main-grid">
+            <div class="week-label">Week of the Year</div>
+            <div class="week-labels"></div>
+            <div class="grid" id="grid"></div>
+        </div>
+    </div>
+
+    <script src="Index.js"></script>
+   
+</body>
+
+</html>
